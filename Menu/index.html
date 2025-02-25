@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Video Task 1</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="preloader" class="preloader">
+      <div class="preloader-content">
+          <div class="spinner"></div>
+          <p>Loading...</p>
+      </div>
+  </div>
+  <!-- Hello world -->
+  <script src="script.js"></script>
+
+  <div class = "combined">
+<!--       <video width="640" height="360" controls>
+          <source src="Video2DTask1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video> -->
+      <img src="Menu.png" width="auto" height="360">"
+    <br>
+  <a href="Video2DTask1.mp4" download >  
+  <div class="button" data-tooltip="Size: 77.4Mb">
+  <div class="button-wrapper">
+    <div class="text">Download</div>
+      <span class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"></path></svg>
+      </span>
+    </div>
+  </div></a>
+</div>
+  
+  <script>
+      window.addEventListener('load', function() {
+          // Simulate loading time (remove this in production)
+          setTimeout(function() {
+              document.getElementById('preloader').style.display = 'none';
+          }, 2000); // 2 seconds
+      });
+  </script>
+  
+</body>
+
+</html>
